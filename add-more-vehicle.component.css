@@ -1,0 +1,122 @@
+
+.form-control.cal{
+	width: 90%;
+}
+.input-group-append{
+	width: 10%;
+	border-bottom: 1px solid #ccc;
+}
+button.calendar, button.calendar:active {
+	width:100%;
+	padding: 0rem 0rem;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #565656;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #f8f9fa;
+	border: 1px solid #e9ecef;
+	border-radius: 0.25rem;
+}
+.btn-secondary{
+	background-color: #565656;
+	color: #fff;
+}
+.d-flex .input-group-append{
+	border: 0;
+}
+.m-0{margin: 0;}
+.vr-no{
+	margin: 0
+}
+.working-days{    
+	min-height: 20px!important;
+	height: 20px!important;
+	padding: 10px!important;
+}
+.p-r{padding-right: 0}
+.veh-img{
+	padding: 0px 15px;
+}
+.p-l{padding-left: 0;}
+  
+ .f-m{margin: 0 16px;} 
+ .sup-e{
+	color: #FF0000;
+	top: -0.4rem;
+	font-size: 1.4rem;
+	left:5px;
+ }
+.icheckbox_flat-yellow{
+
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 16px 0 0;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	border: none;
+	cursor: pointer;
+}
+.p-0{padding: 0px;}
+.m-l{margin-left: 16px;}
+.btn-dark{margin-right: 15px;}
+.label{
+	padding-top: 0.7rem;
+}
+.w-form-control{
+	min-height: 20px;
+	height: 20px;     
+	line-height: 30px;   
+}
+.form-control{
+	border: 0px;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0px;
+	padding: 0px 10px;
+	line-height: 30px;
+	font-size: 1.4rem;
+	min-height: 25px;
+	height: 25px;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	transition: none;
+}
+.btn-warning, .btn-warning:hover, .btn-warning.focus, .btn-warning:focus{
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+.btn-dark{	
+	background-color: #303030; 
+	color: #f7f200; 
+	border: 1px solid #000;
+	margin-right: 15px;
+}
+.btn-m{
+	margin-left: 5px;
+}
+.m-l{
+	margin-left: 15px;
+}
+hr{
+	margin-right: 15px;
+}
+@media( max-width : 585px ){
+	form label{ font-size: 1.2rem;}
+	.card-title{
+		font-size: 15px;
+	}
+	.input-group-append{
+		width: 15%;
+	}
+	.form-control.cal{
+		width: 85%;
+	}
+}
+@media (max-width: 1023px){
+	.d-flex {
+		display: flex!important;
+	}
+}
